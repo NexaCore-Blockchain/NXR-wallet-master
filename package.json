@@ -1,0 +1,33 @@
+{
+  "name": "NXR-wallet",
+  "version": "0.0.1",
+  "description": "NXR Wallet",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "KMD",
+    "SEC",
+    "GUI",
+    "Komodo",
+    "Securities",
+    "token",
+    "wallet"
+  ],
+  "author": "naezith",
+  "devDependencies": {
+    "asymmetric-crypto": "^1.0.2",
+    "bitcoinjs-lib": "^4.0.2",
+    "bootstrap": "^4.1.3",
+    "electron": "^7.2.4",
+    "jquery": "^3.5.0",
+    "popper.js": "^1.14.4"
+  },
+  "standard": {
+    "globals": [
+      "$"
+    ]
+  },
+  "dependencies": {}
+}
